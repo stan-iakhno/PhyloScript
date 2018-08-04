@@ -50,5 +50,3 @@ library(phyloseq)
 ps.mod.z <-merge_phyloseq(ps.bact.agg.2gr.col,fitGTR$tree)
 
 ps.mod.z
-
-taxa_names(ps) <- paste("SV",seq(nrow(tt.plus)))`
